@@ -129,29 +129,31 @@ body {
 
 .col12 {
     height: 300px;
-    width: 20%;
-    display: flex;
-    display: inline-block
+    width: 10%;
 }
 
 .col13 {
     height: 300px;
-    width: 10%;
+    width: 5%;
+    margin-top: 30px;
 }
 
 .col14 {
     height: 300px;
-    width: 10%;
+    width: 5%;
+    margin-top: 30px;
 }
 
 .col15 {
     height: 300px;
-    width: 10%;
+    width: 5%;
+    margin-top: 30px;
 }
 
 .col16 {
     height: 300px;
-    width: 10%;
+    width: 5%;
+    margin-top: 30px;
 }
 
 /* Elements */
@@ -264,4 +266,26 @@ h5 {
 .social {
     width: 20px;
     margin: 3px 3px;
+}
+
+.ul-footer {
+    list-style-type: none;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 2;
+}
+
+hr {
+    border: 1px solid #7289DA;
+    margin-bottom: 10px;
+    width: 75%;
+    margin-right: 20px;
+}
+
+.bottom-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
 }
