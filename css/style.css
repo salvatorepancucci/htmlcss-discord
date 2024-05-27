@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    font-size: 11px;
     background-color: rgb(46, 46, 46);
 }
 
@@ -14,8 +13,9 @@ body {
 
 .container {
     max-width: 100%;
-    background-color: rgb(117, 191, 252);
-    height: 40px;
+    background-color: #255EE9;
+    height: 60px;
+    padding: 15px;
 }
 
 .container-blue {
@@ -64,7 +64,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /* Columns */
@@ -72,25 +72,17 @@ body {
 .col1 {
     width: 10%;
     height: 20px;
-    background-color: orange;
-    border: 1px dashed  black;
-    margin: 9px 0 auto;
 }
 
 .col2 {
-    width: 30%;
+    width: 40%;
     height: 20px;
-    background-color: orange;
-    border: 1px dashed  black;
-    margin: 9px 0 auto;
 }
 
 .col3 {
     width: 10%;
     height: 20px;
-    background-color: orange;
-    border: 1px dashed  black;
-    margin: 9px 0 auto;
+    text-align: center;
 }
 
 .col4 {
@@ -199,15 +191,6 @@ body {
 
 /* Elements */
 
-.content1 {
-    padding: 3px;
-}
-
-#link {
-    text-align: center;
-    line-height: 2;
-}
-
 #login {
     text-align: right;
     line-height: 2;
@@ -236,4 +219,24 @@ body {
     padding: 3px;
     line-height: 7;
     margin-left: 639px;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.li {
+    display: flex;
+    justify-content: space-evenly;
 }
