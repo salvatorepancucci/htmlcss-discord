@@ -32,8 +32,9 @@ body {
 
 .container-grey {
     max-width: 100%;
-    background-color: grey;
-    height: 230px;
+    height: 600px;
+    padding-top: 50px;
+    background-color: #F5F5F5;
 }
 
 .container-grey2 {
@@ -107,19 +108,15 @@ body {
 }
 
 .col7 {
-    width: 15%;
-    height: 200px;
-    background-color: pink;
-    border: 1px dashed  black;
-    margin: 15px 0 auto;
+    width: 20%;
+    height: 450px;
+    margin-left: 100px;
 }
 
 .col8 {
     width: 35%;
-    height: 200px;
-    background-color: dodgerblue;
-    border: 1px dashed  black;
-    margin: 15px 0 auto;
+    height: 450px;
+    margin-right: 200px;
 }
 
 .col9 {
@@ -257,8 +254,8 @@ h1 {
 
 .title-black {
     color: black;
-    line-height: 2;
-    margin-top: 20px;
+    line-height: 1;
+    margin-top: 40px;
 }
 
 .desc-black {
