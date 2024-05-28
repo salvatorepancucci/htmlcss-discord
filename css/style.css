@@ -19,7 +19,7 @@ body {
 
 .jumbo {
     max-width: 100%;
-    background-image: url('/img/jumbo.png');
+    background-image: url('../img/jumbo.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
